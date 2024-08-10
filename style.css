@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --neutral-almost-white: hsl(0, 0%, 98%);
+    --neutral-medium-gray: hsl(0, 0%, 41%);
+    --neutral-almost-black: hsl(0, 0%, 8%);
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Epilogue";
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.title{
+    padding: 15px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.navbar-links{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: var(--neutral-medium-gray);
+    margin-left: 50px;
+}
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links a{
+    text-decoration: none;
+    color: var(--neutral-medium-gray);
+}
+.navbar-links a:hover{
+    text-decoration: underline;
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+    align-items: end;
+    justify-content: end;
+}
+.btn1,.btn2{
+   background-color: var(--neutral-almost-white);
+   color: var(--neutral-medium-gray);
+}
+.btn1,.btn2{
+    border: none;
+    font-size: medium;
+}
+.btn1:hover,.btn2:hover{
+    border: solid var(--neutral-almost-black) 1px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+}
+.maindiv{
+   display: flex;
+   margin-top: 50px;
+   margin-bottom: 70px;
+   align-items: center;
+   gap: 10px;
+   justify-content: space-evenly;
+}
+.col1__head1{
+    font-size: 5em;
+    padding-bottom: 5px;
+}
+.col1__heading{
+    font-size: 5em;
+    padding-bottom: 30px;
+}
+
+.col1__btn3{
+    background-color: var(--neutral-almost-black);
+    color: var(--neutral-almost-white);
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: medium;
+}
